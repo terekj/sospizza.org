@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="text-lg mt-10 border-y-3 border-red-950">
         Click{" "}
         <span className="text-red-950">
-          <Link href="/Source">here</Link>
+          <Link href="/Sources">here</Link>
         </span>{" "}
         for our Locally Sourced Ingredients!
       </div>
