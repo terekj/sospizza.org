@@ -1,9 +1,7 @@
-import Sources from "@/components/Sources/Textbox"
+import Sources from "@/components/Sources/Textbox";
 
-const App = () =>{
-    return (
-        <Sources />
-    );
+const App = () => {
+  return <Sources />;
 };
 
 export default App;
