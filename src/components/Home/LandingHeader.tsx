@@ -10,7 +10,7 @@ const LandingHeader = () => {
       <div className="absolute right-5 top-1/2 opacity-20 z-0">
         <Image src="/onion.png" alt="onion pizza" width={500} height={500} />
       </div>
-      <div className="absolute left-5 top-1/4 opacity-30 z-0">
+      <div className="absolute left-5 top-60 opacity-30 z-0">
         <Image
           src="/meatball.png"
           alt="meatball pizza"
@@ -62,7 +62,7 @@ const LandingHeader = () => {
         <div>Elder Justice Act</div>
         <div>Patient Safety and Abuse Act</div>
       </div>
-      <div className="absolute -left-5 -bottom-18 opacity-20 z-0">
+      <div className="absolute -left-5 bottom-15 opacity-20 z-0 overflow-">
         <Image
           src="/mushroom.png"
           alt="mushroom pizza"

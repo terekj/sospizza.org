@@ -1,7 +1,7 @@
 import Link from "next/link";
 const Footer = () => {
   return (
-    <div className="flex bg-red justify-between h-30 font-ultra p-5 text-creme items-end">
+    <div className="flex bg-red justify-between h-30 font-ultra p-5 text-creme items-end z-1">
       <div className="flex flex-col justify-center">
         <div className="text-2xl border-b-3 border-red-950">SOSPIZZA</div>
         <div className="text-md">EST. 2026</div>
