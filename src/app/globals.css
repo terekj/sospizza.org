@@ -12,3 +12,12 @@
   --font-podkova: "Podkova", serif;
   --font-send-flowers: "Send Flowers", cursive;
 }
+
+@layer base {
+  .font-outline-1 {
+    -webkit-text-stroke: 0.5px #f8edcd;
+  }
+  .font-outline-4 {
+    -webkit-text-stroke: 4px black;
+  }
+}
