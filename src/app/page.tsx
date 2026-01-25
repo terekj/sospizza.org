@@ -1,4 +1,5 @@
 "use client";
+import LandingHeader from "@/components/Home/LandingHeader";
 import Image from "next/image";
 import { motion } from "motion/react";
 
@@ -50,6 +51,7 @@ const Home = () => {
           />
         </div>
       </motion.div>
+      <LandingHeader/>
     </div>
   );
 };
