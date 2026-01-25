@@ -2,11 +2,28 @@
 import * as React from "react";
 import { motion } from "motion/react";
 import Card from "../../components/Order/Card";
+import Image from "next/image";
 
 function Page() {
   return (
     <div className="bg-white min-h-screen">
-      <div className="subheader mt-0">
+      <div className="absolute left-20 top-350 opacity-20 z-0">
+        <Image
+          src="/mushroom.png"
+          alt="mushroom pizza"
+          width={550}
+          height={550}
+        />
+      </div>
+      <div className="absolute right-10 top-500 opacity-20 z-0">
+        <Image
+          src="/hawaiian.png"
+          alt="hawaiian pizza"
+          width={550}
+          height={550}
+        />
+      </div>
+      <div className="subheader mt-0 z-1">
         <div className="checkerboard">
           <img
             src="Checkerboard.svg"
@@ -20,14 +37,14 @@ function Page() {
           <hr className="h-[5px] border-0 bg-red"></hr>
         </div>
       </div>
-      <div className="OrderPage">
+      <div className="OrderPage z-1">
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
           viewport={{ once: true, amount: 0.25 }}
         >
-          <div className="orderBanner flex justify-center content-center">
+          <div className="orderBanner flex justify-center content-center z-1">
             <img
               src="orderbanner.svg"
               width="100%"
@@ -37,9 +54,10 @@ function Page() {
             ></img>
           </div>
         </motion.div>
-        <div className="w-full flex justify-center content-center">
-          <div className="cardContainer p-8 w-3/4 flex flex-col gap-y-32 flex-reverse">
+        <div className="w-full flex justify-center content-center z-1">
+          <div className="cardContainer p-8 w-3/4 flex flex-col gap-y-32 flex-reverse z-1">
             <Card
+              className="z-1"
               src="./pepperoni.jpg"
               title="What is Domestic Violence?"
               body={
@@ -68,7 +86,7 @@ function Page() {
               }
             ></Card>
             <Card
-              className="flex-row-reverse"
+              className="flex-row-reverse z-1"
               src="./burratta.jpg"
               title="Sexual Harrassment vs. Sexual Violence?"
               body={
@@ -94,6 +112,7 @@ function Page() {
               }
             ></Card>
             <Card
+              className="z-1"
               src="./hawaiian.jpg"
               title="Recognize the Signs of Domestic Abuse."
               body={
