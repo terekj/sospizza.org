@@ -3,8 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap");
 @import "tailwindcss";
 
-@config '../../tailwind.config.ts';
-
 @theme {
   --color-red: #951717;
   --color-light-red: #ce2d2d;
