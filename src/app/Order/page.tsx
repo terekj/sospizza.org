@@ -97,7 +97,7 @@ function Page() {
               src="./hawaiian.jpg"
               title="Recognize the Signs of Domestic Abuse."
               body={
-                <div className="overflow-scroll pl-6">
+                <div className="pl-6">
                   <i>Does your partner/family member/friend/caregiver/etc...</i>
                   <br />
                   <br />
