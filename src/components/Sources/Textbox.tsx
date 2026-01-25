@@ -4,7 +4,7 @@ import HyperLink from "./HyperLink";
 const Sources = () => {
   return (
     <div className="bg-creme">
-      <div className="mt-20 ml-40">
+      <div className="pt-20 ml-40">
         <div className="w-100 flex flex-col gap-2">
           <div className="text-7xl leading-none text-red font-ultra tracking-widest">
             Local
@@ -38,6 +38,11 @@ const Sources = () => {
           />
         </div>
       </div>
+        <div className="">
+            <Image src="onion.png" alt="onion" width={100} height={100}/>
+        </div>
+       
+
 
       <div className="mt-4 ml-40 text-red tracking-widest font-ultra leading-none text-4xl">
         {" "}
@@ -77,13 +82,18 @@ const Sources = () => {
         href="https://www.nsvrc.org/lets-talk-campus/definitions-of-terms/"
         label="nsvrc.org"
       ></HyperLink>
-      <HyperLink
-        title="How we got the right"
-        href="https://www.ncbi.nlm.nih.gov/books/NBK499891/"
-        label="ncbi.nlm.nih.gov"
-      ></HyperLink>
 
-      <div> </div>
+        <div className="pb-20">
+        <HyperLink
+            title="How we got the right"
+            href="https://www.ncbi.nlm.nih.gov/books/NBK499891/"
+            label="ncbi.nlm.nih.gov"
+        ></HyperLink>
+
+
+       </div> 
+
+
     </div>
   );
 };
