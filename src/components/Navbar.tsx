@@ -14,7 +14,11 @@ const Navbar = () => {
           />
         </div>
       </Link>
-
+      <Link href="/">
+        <div className="flex items-center p-2 px-4 ml-20 text-xl text-white border-3 rounded-3xl border-red-950 whitespace-nowrap bg-gray-50/25 drop-shadow-lg font-ultra">
+          Call Now
+        </div>
+      </Link>
       <Link href="/Order">
         <div className="flex items-center p-2 px-4 text-xl text-white border-3 rounded-3xl border-red-950 whitespace-nowrap bg-gray-50/25 drop-shadow-lg font-ultra">
           Order Now
