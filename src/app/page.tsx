@@ -1,5 +1,7 @@
 "use client";
+import LandingHeader from "@/components/Home/LandingHeader";
 import Image from "next/image";
+import { motion } from "motion/react";
 
 const Home = () => {
   return (
@@ -14,7 +16,12 @@ const Home = () => {
         />
       </div>
 
-      <div className="flex relative flex-col w-[45%] -mt-20 items-center">
+      <motion.div
+        initial={{ opacity: 0, y: -30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: 0.3 }}
+        className="flex relative flex-col w-[45%] -mt-20 items-center"
+      >
         <Image src="/SOSPIZZA.png" alt="SOS title" width={818} height={199} />
 
         <div className="flex flex-row font-ultra text-5xl gap-x-40 justify-center">
@@ -22,14 +29,18 @@ const Home = () => {
           <div>2026</div>
         </div>
 
-        <div className="flex -mt-25 ml-20">
+        <motion.div
+          animate={{ rotate: 8 }}
+          transition={{ duration: 0.8, delay: 0.5 }}
+          className="flex -mt-25 ml-20"
+        >
           <Image
             src="/SOSpizza.svg"
             alt="SOS PIZZA"
             width={2148}
             height={370}
           />
-        </div>
+        </motion.div>
 
         <div className="flex -mt-25 pb-20">
           <Image
@@ -39,7 +50,8 @@ const Home = () => {
             height={700}
           />
         </div>
-      </div>
+      </motion.div>
+      <LandingHeader />
     </div>
   );
 };

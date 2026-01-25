@@ -6,7 +6,7 @@ import Card from "../../components/Order/Card";
 function Page() {
   return (
     <div className="bg-white min-h-screen">
-      <div className="subheader -mt-[15%]">
+      <div className="subheader mt-0">
         <div className="checkerboard">
           <img
             src="Checkerboard.svg"
@@ -97,7 +97,7 @@ function Page() {
               src="./hawaiian.jpg"
               title="Recognize the Signs of Domestic Abuse."
               body={
-                <div className="overflow-scroll pl-6">
+                <div className="pl-6">
                   <i>Does your partner/family member/friend/caregiver/etc...</i>
                   <br />
                   <br />
