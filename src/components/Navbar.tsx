@@ -4,7 +4,7 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <div className="flex bg-red h-24 items-center justify-between p-4">
-      <Link href="./">
+      <Link href="/">
         <div className="flex w-full">
           <Image
             src="/SOSpizzaMini1.svg"
