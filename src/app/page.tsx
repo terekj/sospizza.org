@@ -2,7 +2,7 @@
 import Image from "next/image";
 const Home = () => {
   return (
-    <div className="min-h-screen bg-creme flex flex-col w-full relative items-center">
+    <div className="min-h-screen bg-creme flex flex-col w-full items-center">
       <div className="w-full h-48 overflow-hidden">
         <Image src="/Checkerboard.svg" alt="SOS PIZZA" width={5000} height={500} />
       </div>
@@ -14,7 +14,7 @@ const Home = () => {
       <div className="flex relative">
         <Image src="/localtext.png" alt="locally sourced and tailored to you" width={700} height={700} />
       </div>
-      <div className="flex flex-row absolute font-ultra text-5xl space-x-40 top-1/2">
+      <div className="flex flex-row font-ultra text-5xl space-x-20 top-1/2">
         <div>EST.</div>
         <div>2026</div>
       </div>
