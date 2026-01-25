@@ -15,7 +15,7 @@ const Navbar = () => {
         </div>
       </Link>
 
-      <Link href="/Order">
+      <Link href="/app/Order">
         <div className="flex items-center p-2 px-4 text-xl text-white border-3 rounded-3xl border-red-950 whitespace-nowrap bg-gray-50/25 drop-shadow-lg">
           Order Now
         </div>
