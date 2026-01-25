@@ -1,4 +1,5 @@
 "use client";
+import LandingHeader from "@/components/Home/LandingHeader";
 import Image from "next/image";
 
 const Home = () => {
@@ -40,6 +41,7 @@ const Home = () => {
           />
         </div>
       </div>
+      <LandingHeader/>
     </div>
   );
 };
