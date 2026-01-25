@@ -4,7 +4,7 @@ import Card from "../../components/Order/Card";
 function Page() {
   return (
     <div className="bg-white min-h-screen">
-      <div className="subheader -mt-[15%]">
+      <div className="subheader mt-0">
         <div className="checkerboard">
           <img
             src="Checkerboard.svg"
