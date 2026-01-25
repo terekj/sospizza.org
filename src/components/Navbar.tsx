@@ -7,7 +7,7 @@ const Navbar = () => {
       <Link href="/">
         <div className="flex w-full">
           <Image
-            src="/SOSpizzaMini1.svg"
+            src="/SOSpizzaMini.png"
             alt="SmallLogo"
             width={80}
             height={80}
