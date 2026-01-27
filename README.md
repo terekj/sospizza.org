@@ -10,5 +10,4 @@
 
 ## A Discreet Website to provide resources to those impacted by Domestic Violence
 
-Unfortunately, according to the CDC, 1 in 4 women will experience physical violence by their intimate partner at some point during their lifetimes and about 1 in 3 women experience some form of sexual violence during their lifetime.
 
