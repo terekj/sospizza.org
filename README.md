@@ -8,7 +8,7 @@
 ![Prettier](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 
-## A Distrete Website to provide resources to those impacted by Domestic Violence
+## A Discreet Website to provide resources to those impacted by Domestic Violence
 
-Unfortunately, according to the CDC, 1 in 4 women will experience physical violence by their intimate partner at some point during their lifetimes and about 1 in 3 womenexperience some form of sexual violence during their lifetimes.
+Unfortunately, according to the CDC, 1 in 4 women will experience physical violence by their intimate partner at some point during their lifetimes and about 1 in 3 women experience some form of sexual violence during their lifetime.
 
